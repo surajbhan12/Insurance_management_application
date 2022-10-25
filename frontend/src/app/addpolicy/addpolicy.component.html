@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <form #adminForm="ngForm"  novalidate>
+      
+        <h2 class="form-heading"> Enter Policy Details </h2>
+  
+  
+        <div class="row">
+          <div class="col-25">
+            <label >Policy Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname"  name="policyname" placeholder="Enter the policy name" [(ngModel)]="policy.policyname" >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Email">Policy Type</label>
+            
+          </div>
+          <div class="col-75">
+            
+            <select class="select" name="category" [(ngModel)]="policy.category">
+              <option value="select">Select</option>
+              <option value="Life">Life</option>
+              <option value="Health">Health</option>
+              <option value="Motor">Motor</option>
+              <option value="Travel">Travel</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="fromdate">Premium</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fromdate" name="premium" placeholder="Enter the cost of policy" [(ngModel)]="policy.premium">
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+              <label for="todate">Maturity</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="todate" name="maturity" placeholder="Enter the tenure" [(ngModel)]="policy.maturity">
+            </div>
+          </div>
+        <div class="row row1">
+          <input style="background-color: skyblue;"type="submit" value="Add" (click)="addPolicy()" >
+        </div>
+      </form>
+  </body>
+</html>

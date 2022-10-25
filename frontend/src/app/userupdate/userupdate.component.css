@@ -1,0 +1,81 @@
+body{
+    background-image: url(https://www.123freevectors.com/ezoimgfmt/i2.wp.com/files.123freevectors.com/wp-content/original/202922-blue-and-green-simple-background.jpg?ezimgfmt=rs%3Adevice%2Frscb2-1&q=95&w=800);
+    margin-top:100px ;
+    background-size: cover;
+   
+  }
+  
+  input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  }
+  
+  label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: bold;
+  }
+  
+  input[type=submit] {
+    width: 20%;
+  background-color: white;
+  color:black;
+  padding: 12px 20px;
+  border:#f2f2f2;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 250px;
+  margin-top: 20px;
+  }
+  
+  input[type=submit]:hover {
+  background-color:white;
+  }
+  
+  .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  }
+  
+  .col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  margin-left: 50px;
+  }
+  
+  .col-75 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  }
+  .row{
+    margin: 20px;
+  }
+  
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+  }
+  
+  form{
+    background-size: 118%;
+    width: 50%;
+  
+    margin-left: 350px;
+    border-radius: 10px;
+    margin-top: 100px;
+  }
+  .form-heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 200%;
+  }
+  

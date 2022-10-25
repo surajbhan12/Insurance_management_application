@@ -1,0 +1,12 @@
+*{
+    background-color: blueviolet;
+    background-image: url("src/assets/homepage.jpg");
+    height:470px;
+    width: 1110px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.centered{
+    color: red;
+    
+}

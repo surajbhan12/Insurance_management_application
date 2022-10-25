@@ -1,0 +1,36 @@
+<body >
+    <form #adminForm="ngForm"  novalidate>
+      
+        <h2 class="form-heading"> UPDATE YOUR DETAILS </h2>
+  
+  
+        <div class="row">
+          <div class="col-25">
+            <label >Email-id</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="email" placeholder="Enter you email id" [(ngModel)]="user.email">
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-25">
+            <label for="no">Mobile no</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="phone" placeholder="Enter your Mobile no"[(ngModel)]="user.phone">
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+              <label for="todate">Age</label>
+            </div>
+            <div class="col-75">
+              <input type="text" name="age" placeholder="Enter your age" [(ngModel)]="user.age" >
+            </div>
+          </div>
+        <div class="row row1">
+          <input style="background-color:darkgray;"type="submit" value="update" (click)="userupdate()">
+        </div>
+      </form>
+  </body>
